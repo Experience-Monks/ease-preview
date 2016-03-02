@@ -4,9 +4,11 @@
 
 This module will create a canvas element which can be used to visualize easing equations. Example output:
 
-![Ease Preview](./preview.png)
+![Ease Preview](https://github.com/Jam3/ease-preview/raw/master/preview.png)
 
 ## Usage
+
+[![NPM](https://nodei.co/npm/ease-preview.png)](https://www.npmjs.com/package/ease-preview)
 
 ### `var canvas = require('ease-preview)(easefunc, [opts])`
 
@@ -23,8 +25,6 @@ Pass in an an ease function you'd like to preview the ease function should accep
 - `widthBoundary` the stroke width of the boundary lines. Default value `1`
 - `shouldRenderBoundary` whether boundary lines should be rendered. Default value `true`
 - `boundarySize` how many pixels should be allocated to render beyond 0 and 1. Default value `100`
-
-[![NPM](https://nodei.co/npm/ease-preview.png)](https://www.npmjs.com/package/ease-preview)
 
 ## License
 
