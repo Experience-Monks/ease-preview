@@ -60,15 +60,15 @@ function renderPreview(ease, opts) {
   ctx.beginPath();
   ctx.moveTo(0, height - halfPadding);
 
-  for(var x = 0; x < width; x++) {
-    var y = height - ease(x / width) * heightMinusPadding - halfPadding;
+  for(var x = 0; x < width - 1; x++) {
+    var y = height - ease(x / (width - 1)) * heightMinusPadding - halfPadding;
 
     ctx.lineTo(x, y);
   }
 
   // render the last 1 position
-  y = height - ease(x / width) * heightMinusPadding - halfPadding;
-  ctx.lineTo(x, y);
+  y = height - ease(1) * heightMinusPadding - halfPadding;
+  ctx.lineTo(width - 1, y);
 
   ctx.stroke();
 }
