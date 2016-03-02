@@ -1,0 +1,32 @@
+{
+  "name": "ease-preview",
+  "version": "1.0.0",
+  "description": "This module will create a canvas element which can be used to visualize easing equations",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "budo": "^8.0.4",
+    "eases": "^1.0.8"
+  },
+  "scripts": {
+    "test": "budo test/index.js --live --open"
+  },
+  "keywords": [
+    "ease,eases,penner,animation,preview"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikkoh/ease-preview.git"
+  },
+  "homepage": "https://github.com/mikkoh/ease-preview",
+  "bugs": {
+    "url": "https://github.com/mikkoh/ease-preview/issues"
+  }
+}
