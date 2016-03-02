@@ -66,5 +66,9 @@ function renderPreview(ease, opts) {
     ctx.lineTo(x, y);
   }
 
+  // render the last 1 position
+  y = height - ease(x / width) * heightMinusPadding - halfPadding;
+  ctx.lineTo(x, y);
+
   ctx.stroke();
 }
