@@ -22,10 +22,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikkoh/ease-preview.git"
+    "url": "git://github.com/jam3/ease-preview.git"
   },
-  "homepage": "https://github.com/mikkoh/ease-preview",
+  "homepage": "https://github.com/jam3/ease-preview",
   "bugs": {
-    "url": "https://github.com/mikkoh/ease-preview/issues"
+    "url": "https://github.com/jam3/ease-preview/issues"
   }
 }
