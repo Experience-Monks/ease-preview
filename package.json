@@ -1,6 +1,6 @@
 {
   "name": "ease-preview",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This module will create a canvas element which can be used to visualize easing equations",
   "main": "index.js",
   "license": "MIT",
