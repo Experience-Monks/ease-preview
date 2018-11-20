@@ -12,7 +12,7 @@ This module will create a canvas element which can be used to visualize easing e
 
 ### `var canvas = require('ease-preview)(easefunc, [opts])`
 
-Pass in an an ease function you'd like to preview the ease function should accept a value between 0-1 and return a value between 0-1 (the same format as the [`eases`](http://www.npmjs.com/eases) module).
+Pass in an ease function you'd like to preview the ease function should accept a value between 0-1 and return a value between 0-1 (the same format as the [`eases`](http://www.npmjs.com/eases) module).
 
 `ease-preview` also accepts a second options object with the following options:
 - `canvas` canvas you'd like to render the ease equation into. If no canvas is supplied a new canvas will be created.
